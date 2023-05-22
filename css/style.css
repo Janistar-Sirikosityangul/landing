@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	background-color: #FFF7D4;
+	margin: 40px auto;
+	color: #4C3D3D;
+}
+h1,h2,h3 {
+	font-family: 'Charm', cursive;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+a:hover {
+  color: #4C3D3D;
+  text-decoration: none;
